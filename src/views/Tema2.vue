@@ -81,13 +81,28 @@
                 p.mb-0  Mantener un equilibrio que permita la coexistencia de las arvenses en los cultivos sin afectar los rendimientos. 
     p.mb-5 #[b Algunos beneficios adicionales son: ]
     .row.justify-content-center.mb-5
-      .col-lg-3
+      .col-lg-3.mb-lg-0.mb-3 
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/16.svg' alt='AvatarTop' style="width: 73px ")
-          .tarjeta.w-100(style="background-color: #EDF6DB")
-            .text-white.p-4
-              h5.text-center 
-              p
+          img(src='@/assets/curso/temas/16.svg' alt='AvatarTop')
+          .tarjeta.w-100.h-100(style="background-color: #EDF6DB")
+            .p-4.text-center
+              h5.text-center Diversidad
+              p Fomentar la biodiversidad.
+      .col-lg-4.mb-lg-0.mb-3 
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/17.svg' alt='AvatarTop')
+          .tarjeta.w-100.h-100(style="background-color: #EDF6DB")
+            .p-4.text-center
+              h5.text-center Control de plagas y enfermedades
+              p Facilitar el control natural.
+      .col-lg-3.mb-lg-0.mb-3 
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/18.svg' alt='AvatarTop')
+          .tarjeta.w-100.h-100(style="background-color: #EDF6DB")
+            .p-4.text-center
+              h5.text-center Conservación de suelos
+              p Promover la conservación del suelo a través de una cobertura viva
+    Separador
 
 
 </template>
