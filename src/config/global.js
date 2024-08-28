@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Manejo agroecológico de plagas y enfermedades ',
+    descripcionCurso:
+      'Este componente formativo en el manejo agroecológico de plagas y enfermedades en cultivos, abordando prácticas preventivas y de control basadas en métodos naturales. Incluye estrategias para el manejo de arvenses, plagas y enfermedades, así como la preparación de bioinsumos. Promueve la sostenibilidad, la biodiversidad y la salud del ecosistema agrícola mediante técnicas limpias y ecológicas. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
