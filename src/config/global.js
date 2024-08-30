@@ -36,45 +36,107 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '',
+        titulo: 'Generalidades',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '',
+        titulo: 'Manejo de arvenses',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos de arvenses',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Las arvenses como indicadoras',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Las arvenses como mejoradoras',
+            hash: 't_1_1',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Métodos de manejo de las arvenses',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '',
+        titulo: 'Manejo de plagas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Categorías de las plagas',
+            hash: 't_1_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Formas en que las plagas dañan los cultivos',
+            hash: 't_1_1',
+          },
+          {
+            numero: '3.3',
+            titulo:
+              'Las plagas y sus interacciones en el sistema agroecológico',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '',
+        titulo: 'Métodos y estrategias de manejo de plagas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Prevención de plagas',
+            hash: 't_1_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Control de plagas',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: '',
+        titulo: 'Manejo de enfermedades',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Preparación de caldo de ceniza',
+            hash: 't_1_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Preparación de purín de helecho',
+            hash: 't_1_1',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Preparación de purín con base en ajo y ají',
+            hash: 't_1_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: '',
+        titulo: 'Procedimiento para obtener bioinsumos',
         desarrolloContenidos: true,
       },
     ],
@@ -125,32 +187,145 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Generalidades',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2020). Clasificacion de las Plagas. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/gS80Wl3iQPA?si=Cb2ekT6OoBJldOlP',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Manejo de arvenses',
+      referencia:
+        'Córdoba O. (2023). Manejo ecológico de plagas y enfermedades. Editorial Agrosavia.',
+      tipo: 'Capítulo 5',
+      descarga:
+        'https://editorial.agrosavia.co/index.php/publicaciones/catalog/download/162/149/1124-1?inline=1',
+    },
+    {
+      tema: 'Manejo de plagas',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2020). Buenas Prácticas de Manejo de Plagas. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/RaOwSSnJCss?si=xFbYsgiJ77m5dUV8',
+    },
+    {
+      tema: 'Métodos y estrategias de manejo de plagas',
+      referencia:
+        'Agro Energy México. (2022).Control Biológico de plagas. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=N6ts2tUrtCQ',
+    },
+    {
+      tema: 'Manejo de enfermedades',
+      referencia:
+        'FAO. (2010). Manejo integrado de enfermedades. Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO).',
+      tipo: 'Documento',
+      descarga: 'https://www.fao.org/4/a1374s/a1374s05.pdf',
+    },
+    {
+      tema: 'Preparación de caldo de ceniza',
+      referencia:
+        'Vida en el Campo (2023). CÓMO preparar Caldo de CENIZA (INSECTICIDA, FUNGICIDA y FERTILIZANTE) [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'ttps://youtu.be/68XPKDlIH5g?si=3P6HH_XUrPq9krno',
+    },
+    {
+      tema: 'Preparación de purín de helecho',
+      referencia:
+        'La Huerta de Iván (2016). Como Hacer Purin de Helecho | Insecticida Natural | La Huerta de Ivan. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/kTvu4Vxe1Aw?si=IH--6e1f44QJ_jUU',
+    },
+    {
+      tema: 'Preparación de purín con base en ajo y ají',
+      referencia:
+        'Urban Crops Project. (2016). Cómo hacer un INSECTICIDA CASERO para plantas con AJO Y AJÍ SUPER EFECTIVO Moscas, áfidos, minadores. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/RIyBEsgOves?si=gkdp7czhb6imoRtA',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Agroecología',
+      significado:
+        'enfoque agrícola que utiliza principios ecológicos para la producción sostenible y la conservación de recursos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Biopreparados',
+      significado:
+        'productos naturales utilizados para el control de plagas y enfermedades en la agricultura.',
+    },
+    {
+      termino: 'Cobertura',
+      significado:
+        'uso de plantas o materiales orgánicos para proteger el suelo y mejorar su salud.',
+    },
+    {
+      termino: 'Compostaje',
+      significado:
+        'proceso de descomposición de materia orgánica para producir abono rico en nutrientes.',
+    },
+    {
+      termino: 'Control biológico',
+      significado: 'método de control de plagas utilizando organismos vivos.',
+    },
+    {
+      termino: 'Lombricompuesto',
+      significado:
+        'abono producido a partir de la descomposición de materia orgánica por lombrices.',
+    },
+    {
+      termino: 'Plagas',
+      significado:
+        'organismos que causan daño a los cultivos y afectan la productividad agrícola.',
+    },
+    {
+      termino: 'Prácticas sostenibles',
+      significado:
+        'técnicas agrícolas que buscan mantener y mejorar la salud del suelo y la productividad a largo plazo.',
+    },
+    {
+      termino: 'Rotación de cultivos',
+      significado:
+        'práctica de alternar diferentes cultivos en el mismo terreno para mejorar la fertilidad del suelo y reducir plagas.',
+    },
+    {
+      termino: 'Sistemas silvopastoriles',
+      significado:
+        'integración de árboles, pastos y animales en un mismo sistema de producción agrícola.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Blanco, Y. (2016). El rol de las arvenses como componente en la biodiversidad de los agroecosistemas. Cultivos Tropicales, 37(4).',
+      link: 'http://dx.doi.org/10.13140/RG.2.2.10964.19844',
+    },
+    {
+      referencia:
+        'Esqueda-Esquivel, V. A., Montero-Lagunes, M., & Juárez-Lagunes, F. I. (2010). El control de arvenses en la productividad y calidad del pasto Llanero. agronomía mesoamericana, 21(1), 145-157.',
+      link:
+        'https://www.scielo.sa.cr/scielo.php?pid=S1659-13212010000100015&script=sci_arttext',
+    },
+    {
+      referencia:
+        'IPES-Promoción del Desarrollo Sostenible / FAO-Oficina Sub Regional para América del Sur. (2010). Biopreparados para el manejo sostenible de plagas y enfermedades en la agricultura urbana y periurbana. Recuperado de',
+      link: 'http://www.fao.org/3/a-as435s.pdf',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO). (2014). Una huerta para todos. Manual de auto-instrucción. Recuperado de',
+      link: 'http://www.fao.org/3/a-i3846s.pdf',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) e Instituto Colombiano de Desarrollo Rural (INCODER). (2016). Guía para la Implementación de Centros Demostrativos de Capacitación CDC con enfoque agroecológico. Recuperado de',
+      link: 'http://www.fao.org/3/a-i6041s.pdf',
+    },
+    {
+      referencia:
+        'Ruiz, I. G., Mora, I. D., del Sol González, F., & Cruz, F. A. H. (2024). Control preemergente de arvenses con sustancias alternativas a los herbicidas de síntesis. Revista Científica Agroecosistemas, 12(1), 90-97.',
+      link: 'https://aes.ucf.edu.cu/index.php/aes/article/download/688/644',
     },
   ],
   creditos: [
@@ -173,8 +348,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nina Elvira Rocha Nieto',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de Atención al Sector Agropecuario - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -183,12 +364,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benites',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

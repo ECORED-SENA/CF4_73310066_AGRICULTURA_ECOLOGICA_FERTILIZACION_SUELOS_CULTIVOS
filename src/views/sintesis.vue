@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis presenta  el manejo agroecológico de plagas y enfermedades en los cultivos. El enfoque se basa en prácticas sostenibles, manejo integrado (MIPE) y manejo de arvenses. Se destacan prácticas como el uso de bioinsumos y la rotación de cultivos, así como el control de plagas y enfermedades mediante métodos mecánicos, biológicos y culturales. También se incluyen estrategias de prevención y control para mantener la salud de los cultivos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -15,105 +15,211 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Manejo agroecológico de plagas y enfermedades.',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
-          texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          texto: '¿Qué es el manejo agroecológico de plagas y enfermedades?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108115.png'),
           barajarRespuestas: false,
-          opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
-            {
-              id: 'c',
-              texto: 'Explotación extensiva o traspatio',
-              esCorrecta: false,
-            },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
-        },
-        {
-          id: 2,
-          texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
-          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'Control de plagas mediante productos químicos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
+              texto: 'Enfoque agrícola basado en principios ecológicos.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Uso exclusivo de métodos biológicos.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Aplicación de pesticidas.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál de las siguientes es una práctica sostenible en el manejo agroecológico?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108116.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso de pesticidas sintéticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Rotación de cultivos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Monocultivo intensivo.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Riego por inundación.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué agente causante puede ser controlado en el manejo agroecológico de enfermedades?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108117.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            { id: 'a', texto: 'Insectos beneficiosos.', esCorrecta: false },
+            { id: 'b', texto: 'Hongos, bacterias y virus.', esCorrecta: true },
+            { id: 'c', texto: 'Contaminantes químicos.', esCorrecta: false },
+            { id: 'd', texto: 'Malezas.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Cuál es un método de control de plagas en el manejo integrado?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108118.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Aplicación de herbicidas.', esCorrecta: false },
+            { id: 'b', texto: 'Métodos mecánicos.', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Uso de fertilizantes químicos.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Irradiación de cultivos.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué práctica no es parte del manejo agroecológico de suelos?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108115.png'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Uso de fertilizantes sintéticos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Conservación de organismos y microorganismos.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Labranza mínima o cero.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Coberturas (muertas y vivas).',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es un ejemplo de un bioinsumo utilizado en prácticas sostenibles?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108116.png'),
+          opciones: [
+            { id: 'a', texto: 'Caldo de ceniza.', esCorrecta: true },
+            { id: 'b', texto: 'Fertilizantes sintéticos.', esCorrecta: false },
+            { id: 'c', texto: 'Pesticidas comerciales.', esCorrecta: false },
+            { id: 'd', texto: 'Hormonas de crecimiento.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto: '¿Qué tipo de arvense se menciona en el manejo de arvenses?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108117.png'),
+          opciones: [
+            { id: 'a', texto: 'Agresivas vs nobles.', esCorrecta: true },
+            { id: 'b', texto: 'Comestibles', esCorrecta: false },
+            { id: 'c', texto: 'Medicinales.', esCorrecta: false },
+            { id: 'd', texto: 'Ornamentales.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál es una categoría de plagas mencionada en el manejo integrado?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108118.png'),
+          opciones: [
+            { id: 'a', texto: 'Plagas urbanas.', esCorrecta: false },
+            { id: 'b', texto: 'Plagas mecánicas.', esCorrecta: true },
+            { id: 'c', texto: 'Plagas acuáticas.', esCorrecta: false },
+            { id: 'd', texto: 'Plagas aéreas.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué técnica se utiliza para la prevención de enfermedades en el manejo agroecológico?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108115.png'),
+          opciones: [
+            { id: 'a', texto: 'Uso de insecticidas.', esCorrecta: false },
+            { id: 'b', texto: 'Rotación de cultivos.', esCorrecta: true },
+            { id: 'c', texto: 'Irrigación constante.', esCorrecta: false },
+            { id: 'd', texto: 'Cultivo en invernaderos.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto: '¿Qué beneficio se obtiene de la fertilización agroecológica?',
+          imagen: require('@/assets/componentes/preguntas/Grupo 1108116.png'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Disminución de la biodiversidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejora de la estructura del suelo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Aumento de residuos químicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducción de la actividad biológica del suelo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
       mensaje_final_aprobado:
