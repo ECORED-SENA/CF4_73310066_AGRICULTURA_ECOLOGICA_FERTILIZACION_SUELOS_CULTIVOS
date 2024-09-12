@@ -156,7 +156,11 @@ export default {
           texto: '¿Qué tipo de arvense se menciona en el manejo de arvenses?',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108117.png'),
           opciones: [
-            { id: 'a', texto: 'Agresivas vs nobles.', esCorrecta: true },
+            {
+              id: 'a',
+              texto: 'Agresivas <em>vs</em> nobles.',
+              esCorrecta: true,
+            },
             { id: 'b', texto: 'Comestibles', esCorrecta: false },
             { id: 'c', texto: 'Medicinales.', esCorrecta: false },
             { id: 'd', texto: 'Ornamentales.', esCorrecta: false },
@@ -222,7 +226,8 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Excelente! Se evidencia un buen manejo de los conceptos estudiados en esta unidad.',
       mensaje_final_reprobado:
         'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },

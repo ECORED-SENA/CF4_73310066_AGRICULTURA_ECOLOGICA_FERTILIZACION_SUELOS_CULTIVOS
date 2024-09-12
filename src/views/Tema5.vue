@@ -34,22 +34,22 @@
       .col-lg-2.mb-lg-0.mb-3
         .tarjeta.p-2.h-100(style="background-color: #65802c ")
           .row.justify-content-center.mb-3
-            .col-lg-8: img(src='@/assets/curso/temas/72.svg', alt='')
+            .col-lg-8.col-4: img(src='@/assets/curso/temas/72.svg', alt='')
           h4.text-center.text-white Hongos
       .col-lg-2.mb-lg-0.mb-3
         .tarjeta.p-2.h-100(style="background-color: #65802c ")
           .row.justify-content-center.mb-3
-            .col-lg-8: img(src='@/assets/curso/temas/73.svg', alt='')
+            .col-lg-8.col-4: img(src='@/assets/curso/temas/73.svg', alt='')
           h4.text-center.text-white Bacterias
       .col-lg-2.mb-lg-0.mb-3
         .tarjeta.p-2.h-100(style="background-color: #65802c ")
           .row.justify-content-center.mb-3
-            .col-lg-8: img(src='@/assets/curso/temas/74.svg', alt='')
+            .col-lg-8.col-4: img(src='@/assets/curso/temas/74.svg', alt='')
           h4.text-center.text-white Virus
       .col-lg-2.mb-lg-0.mb-3
         .tarjeta.p-2.h-100(style="background-color: #65802c ")
           .row.justify-content-center.mb-3
-            .col-lg-8: img(src='@/assets/curso/temas/75.svg', alt='')
+            .col-lg-8.col-4: img(src='@/assets/curso/temas/75.svg', alt='')
           h4.text-center.text-white Otros microorganismos
     p.mb-5(data-aos='fade-right') Las enfermedades de las plantas son causadas mayormente por hongos, bacterias y virus. Estos microorganismos colonizan las plantas y las afectan a tal punto que se disminuye o se daña la producción. Las plantas enfermas se ven amarillas, marchitas, con hojas "dormidas", débiles y con frutos en pudrición. 
       br
@@ -91,7 +91,7 @@
                 td Deformación en partes de la planta, entrenudos cortos, desarrollo pobre de las raíces, malformación de las hojas, falta de desarrollo de frutos y flores.
               tr
                 td Marchitamiento y muerte
-                td Quemazones, manchas, pudriciones.
+                td Quemazones, manchas, pudriciones, entre otros.
               tr
                 td Cambios en la apariencia y color de hojas y otros órganos
                 td Mosaicos, clorosis.
@@ -105,17 +105,10 @@
           .row.justify-content-center
             .col-lg-6.mb-4.mb-md-0
               h5 Hongo en las plantas 
-              p Micelio, esporas y/o conidias visibles en las raíces, haz o envés de hojas, tallos y demás órganos. Forman algodones y colonizaciones de diferentes colores, generalmente secas. También mildeos polvosos. Esporas blancas, negras y anaranjadas. Manchas anilladas en hojas y tallos. Necrosis apical de hojas. 
+              p Micelio, esporas y/o #[em conidias] visibles en las raíces, haz o envés de hojas, tallos y demás órganos. Forman algodones y colonizaciones de diferentes colores, generalmente secas. También #[em mildeos] polvosos. Esporas blancas, negras y anaranjadas. Manchas anilladas en hojas y tallos. Necrosis apical de hojas. 
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/77.png', alt='Texto que describa la imagen')
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              h5 Virus en las plantas
-              p Enanismo en la planta, encrespamiento de órganos como las hojas, deformación de frutos. En el cultivo generalmente se da en plantas aisladas. Mosaicos, verrugas, deformaciones y manchas anulares. 
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/78.png', alt='Texto que describa la imagen')
           .row.justify-content-center
             .col-lg-6.mb-4.mb-md-0
               h5 Bacteria en las plantas 
@@ -123,6 +116,13 @@
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/79.png', alt='Texto que describa la imagen')
+          .row.justify-content-center
+            .col-lg-6.mb-4.mb-md-0
+              h5 Virus en las plantas
+              p Enanismo en la planta, encrespamiento de órganos como las hojas, deformación de frutos. En el cultivo generalmente se da en plantas aisladas. Mosaicos, verrugas, deformaciones y manchas anulares. 
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/78.png', alt='Texto que describa la imagen')
     p.mb-5(data-aos='fade-right') #[b La prevención de enfermedades se puede dar con:]  
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/80.png', alt='') 
@@ -231,7 +231,7 @@
               p.mb-0 Consiste en cultivar solamente variedades o híbridos resistentes a las infecciones. No se usa en el manejo agroecológico.
           div(titulo="Terapia")
             .px-4
-              p.mb-0 Consiste en procedimientoscurativos una vez la enfermedad haya logrado su presencia. No se usa en elmanejo agroecológ
+              p.mb-0 Consiste en procedimientos curativos una vez la enfermedad haya logrado su presencia. No se usa en elmanejo agroecológico. 
     p.mb-5(data-aos='fade-right') #[b Los métodos de manejo son:  ]
     .fondo-slyder.mn.p-5.mb-4
       .tarjeta.bg-white.p-5

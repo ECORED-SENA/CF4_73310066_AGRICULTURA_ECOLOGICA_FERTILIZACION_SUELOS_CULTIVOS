@@ -23,10 +23,10 @@
           .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/36.svg', alt='')
           .col-lg-8
             h4 Pódcast
-            p Los invitamos  a escuchar el podcast de procedimiento para obtener bioinsumost. En este episodio, Don Campos, Asusena y Evaristo compartirán recetas y técnicas para preparar bioinsumos caseros. Los oyentes aprenderán a utilizar ingredientes naturales que pueden encontrar en su finca, permitiéndoles proteger y nutrir sus cultivos de forma ecológica y económica.  
+            p Los invitamos  a escuchar el #[em podcast] de procedimiento para obtener bioinsumost. En este episodio, Don Campos, Asusena y Evaristo compartirán recetas y técnicas para preparar bioinsumos caseros. Los oyentes aprenderán a utilizar ingredientes naturales que pueden encontrar en su finca, permitiéndoles proteger y nutrir sus cultivos de forma ecológica y económica.  
             TarjetaAudio.mb-3.bg-white(
               texto="Procedimiento para obtener bioinsumos"
-              :audio="require('../assets/curso/temas/audio.mp3')"
+              :audio="require('../assets/curso/temas/audio3.mp3')"
             )
     p.mb-5(data-aos='fade-right') A continuación, se indican los procedimientos para la obtención de bioinsumos básicos en el control de plagas y enfermedades de los cultivos: 
     Separador
@@ -94,7 +94,7 @@
                 p.mb-0 Aplicar al follaje de los cultivos.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #BDAF7F ")
-                p.mb-0 Sirve para la desinfección de semilleros, control de hongos del suelo, control de cochinillas, escamas y gusanos cogolleros
+                p.mb-0 Sirve para la desinfección de semilleros, control de hongos del suelo, control de cochinillas, escamas y gusanos cogolleros.
           .col-lg-4.col-7: img(src='@/assets/curso/temas/98.png', alt='')
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 6.2 Preparación de purín de helecho 
@@ -227,27 +227,27 @@
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check-circle(style="color: #BDAF7F ")
-                p.mb-0 2 cabezas de ajo. 
+                p.mb-0 Moler los ajos con el ají. 
               
               li.d-flex
                 i.fas.fa-check-circle(style="color: #BDAF7F ")
-                p.mb-0 3 cucharadas de ají picante.
+                p.mb-0 Agregar el alcohol.
               
               li.d-flex
                 i.fas.fa-check-circle(style="color: #BDAF7F ")
-                p.mb-0 6 cucharadas de alcohol. 
+                p.mb-0 Completar a 2 L con agua limpia y dejar durante 3 dias. 
               
               li.d-flex
                 i.fas.fa-check-circle(style="color: #BDAF7F ")
-                p.mb-0 8 cucharadas de aceite de cocina. 
+                p.mb-0 A los tres días, aparte mezclar jabón con el aceite en 1L de agua. 
               
               li.d-flex
                 i.fas.fa-check-circle(style="color: #BDAF7F ")
-                p.mb-0 1/4 de barra de jabón de coco. 
+                p.mb-0 Agregar a la fumigadora la mezcla de ajo-ají y la mezcla de aceite-jabón, todo colado. 
               
               li.d-flex
                 i.fas.fa-check-circle(style="color: #BDAF7F ")
-                p.mb-0 20 L de agua.
+                p.mb-0 Completar a 20 L en la fumigadora.
           .col-lg-4.col-7: img(src='@/assets/curso/temas/103.png', alt='')
       .py-4.py-md-5(titulo="Usos" :icono="require('@/assets/curso/temas/95.svg')")
         .row.justify-content-center

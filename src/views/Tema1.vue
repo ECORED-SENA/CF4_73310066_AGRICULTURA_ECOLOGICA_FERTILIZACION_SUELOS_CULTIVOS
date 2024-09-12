@@ -7,21 +7,21 @@
         span 1
       h1 Generalidades
     p.mb-5(data-aos='fade-right') En la implementación de un cultivo se presentan las siguientes situaciones: 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.g-3
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.h-100
           img(src='@/assets/curso/temas/3.png', alt='')
-          .d-flex.justify-content-center.p-4(style="background-color: #bdaf7f ")
+          .d-flex.justify-content-center.p-4(style="background-color: #bdaf7f; border-radius: 0px 0px 20px 20px")
             .d-inline-block.bg-white.p-2: h5.mb-0  Presencia de malezas
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.h-100
           img(src='@/assets/curso/temas/4.png', alt='')
-          .d-flex.justify-content-center.p-4(style="background-color: #bdaf7f ")
+          .d-flex.justify-content-center.p-4(style="background-color: #bdaf7f ; border-radius: 0px 0px 20px 20px ")
             .d-inline-block.bg-white.p-2: h5.mb-0  Presencia de plagas
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.h-100
           img(src='@/assets/curso/temas/5.png', alt='')
-          .d-flex.justify-content-center.p-4(style="background-color: #bdaf7f ")
+          .d-flex.justify-content-center.p-4(style="background-color: #bdaf7f ; border-radius: 0px 0px 20px 20px ")
             .d-inline-block.bg-white.p-2: h5.mb-0  Presencia de enfermedades
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-3.h-100(style="background-color: #faecab")

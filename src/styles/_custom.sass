@@ -118,3 +118,22 @@
   content: url(../assets/curso/temas/flecha-der.svg)
 .fa-chevron-left:before
   content: url(../assets/curso/temas/flecha-iz.svg)
+.tarjeta-adorno
+  position: relative
+  &:before
+    z-index: 0
+    position: absolute
+    content: ''
+    background-color: #a8d549
+    height: 100%
+    width: 8%
+    left: 0 
+    top: 0
+  .row
+    position: relative
+    z-index: 1
+.slyder-a__bullets__item
+  background-color: #faeeb6 
+  border: 0
+.slyder-a__bullets__item--active
+  background-color: #f3d02c

@@ -9,7 +9,7 @@
     p.mb-5(data-aos='fade-right')  Las malezas son especies vegetales que compiten con los cultivos por agua y nutrientes. Algunas tienen efectos alelopáticos negativos, causando detrimento en la producción e interfiriendo en el desarrollo normal de las plantas. 
     .row.justify-content-center.mb-5
       .col-lg-10
-        div(style="background-color: #DCEEB6 ")
+        div.tarjeta-adorno(style="background-color: #DCEEB6 ")
           .row.justify-content-center.align-items-center
             .col-lg-9
               .p-4
@@ -22,8 +22,8 @@
     p #[b Los tipos de arvenses son:  ]
     .row.justify-content-center.mb-3
       .col-lg-8
-        div(style="background-color:#FAECAB ")
-          .row.justify-content-center
+        div(style="background-color:#FAECAB ; border-radius: 10px").overflow-hidden
+          .row.justify-content-center.g-3
             .col-lg-3.col-7
               .p-lg-0.p-4: img(src='@/assets/curso/temas/10.png', alt='')
             .col-lg-9
@@ -33,10 +33,10 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        div(style="background-color:#FAECAB ")
-          .row.justify-content-center
+        div(style="background-color:#FAECAB ; border-radius: 10px").overflow-hidden
+          .row.justify-content-center.g-3
             .col-lg-3.col-7
-              .p-lg-0.p-4: img(src='@/assets/curso/temas/11.png', alt='')
+              .p-lg-0.p-4.h-100: img(src='@/assets/curso/temas/11.png', alt='')
             .col-lg-9
               .p-4
                 h5 Arvenses nobles
@@ -101,7 +101,7 @@
           .tarjeta.w-100.h-100(style="background-color: #EDF6DB")
             .p-4.text-center
               h5.text-center Conservación de suelos
-              p Promover la conservación del suelo a través de una cobertura viva
+              p Promover la conservación del suelo a través de una cobertura viva.
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Tipos de arvenses
@@ -110,28 +110,28 @@
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #dceeb6 ").h-100
           .row.justify-content-center.mb-3
-            .col-lg-6.col-7: img(src='@/assets/curso/temas/19.png', alt='')
+            .col-lg-6.col-5: img(src='@/assets/curso/temas/19.png', alt='')
           .text-center
             h4 Por la intensidad de su efecto en los cultivos
             p.mb-0 Agresivas y nobles.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #dceeb6 ").h-100
           .row.justify-content-center.mb-3
-            .col-lg-6.col-7: img(src='@/assets/curso/temas/20.png', alt='')
+            .col-lg-6.col-5: img(src='@/assets/curso/temas/20.png', alt='')
           .text-center
             h4 Por su botánica
             p.mb-0 Hojas anchas, gramíneas y ciperáceas.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #dceeb6 ").h-100
           .row.justify-content-center.mb-3
-            .col-lg-6.col-7: img(src='@/assets/curso/temas/21.png', alt='')
+            .col-lg-6.col-5: img(src='@/assets/curso/temas/21.png', alt='')
           .text-center
             h4 Por su ciclo de vida
             p.mb-0 Perennes o anuales.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #dceeb6 ").h-100
           .row.justify-content-center.mb-3
-            .col-lg-6.col-7: img(src='@/assets/curso/temas/22.png', alt='')
+            .col-lg-6.col-5: img(src='@/assets/curso/temas/22.png', alt='')
           .text-center
             h4 Por la consistencia del tallo
             p.mb-0 Leñosas, semileñosas y herbáceas.
@@ -188,7 +188,7 @@
                       p.mb-0 Conservadoras del suelo al constituirse en cobertura. 
                     li.d-flex
                       i.fas.fa-check-circle(style="color: #BDAF7F ")
-                      p.mb-0 Estabilizadoras del sistema agroecológico
+                      p.mb-0 Estabilizadoras del sistema agroecológico.
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4 Métodos de manejo de las arvenses 
@@ -264,7 +264,7 @@
               h4.mb-0 Aplicación de herbicidas
           p.text-center No se utiliza esta práctica en el manejo agroecológico.
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-lg-0.mb-3
         .tarjeta.h-100.p-4(style="background-color: #f3d02c ")
           .d-flex.align-items-center
             .row.justify-content-center.align-items-center
@@ -274,7 +274,7 @@
                 p Están invitados a no perderse el episodio de Manejo de arvences. Evaristo, Asusena y el ingeniero explorarán el fascinante mundo del manejo de arvenses. Los oyentes aprenderán a diferenciar entre las plantas que benefician y las que compiten con sus cultivos, descubriendo cómo aprovecharlas para mejorar la productividad de sus fincas.
                 TarjetaAudio.mb-3.bg-white(
                   texto="Manejo de arvenses "
-                  :audio="require('../assets/curso/temas/audio.mp3')"
+                  :audio="require('../assets/curso/temas/audio1.mp3')"
                 )
       .col-lg-4.col-7: img(src='@/assets/curso/temas/36.png', alt='')
 

@@ -49,22 +49,22 @@ export default {
           {
             numero: '2.1',
             titulo: 'Tipos de arvenses',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
             numero: '2.2',
             titulo: 'Las arvenses como indicadoras',
-            hash: 't_1_1',
+            hash: 't_2_2',
           },
           {
             numero: '2.3',
             titulo: 'Las arvenses como mejoradoras',
-            hash: 't_1_1',
+            hash: 't_2_3',
           },
           {
             numero: '2.4',
             titulo: 'Métodos de manejo de las arvenses',
-            hash: 't_1_1',
+            hash: 't_2_4',
           },
         ],
       },
@@ -77,18 +77,18 @@ export default {
           {
             numero: '3.1',
             titulo: 'Categorías de las plagas',
-            hash: 't_1_1',
+            hash: 't_3_1',
           },
           {
             numero: '3.2',
             titulo: 'Formas en que las plagas dañan los cultivos',
-            hash: 't_1_1',
+            hash: 't_3_2',
           },
           {
             numero: '3.3',
             titulo:
               'Las plagas y sus interacciones en el sistema agroecológico',
-            hash: 't_1_1',
+            hash: 't_3_3',
           },
         ],
       },
@@ -101,12 +101,12 @@ export default {
           {
             numero: '4.1',
             titulo: 'Prevención de plagas',
-            hash: 't_1_1',
+            hash: 't_4_1',
           },
           {
             numero: '4.2',
             titulo: 'Control de plagas',
-            hash: 't_1_1',
+            hash: 't_4_2',
           },
         ],
       },
@@ -115,29 +115,29 @@ export default {
         numero: '5',
         titulo: 'Manejo de enfermedades',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '5.1',
-            titulo: 'Preparación de caldo de ceniza',
-            hash: 't_1_1',
-          },
-          {
-            numero: '5.2',
-            titulo: 'Preparación de purín de helecho',
-            hash: 't_1_1',
-          },
-          {
-            numero: '5.3',
-            titulo: 'Preparación de purín con base en ajo y ají',
-            hash: 't_1_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
         numero: '6',
         titulo: 'Procedimiento para obtener bioinsumos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Preparación de caldo de ceniza',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Preparación de purín de helecho',
+            hash: 't_6_2',
+          },
+          {
+            numero: '6.3',
+            titulo: 'Preparación de purín con base en ajo y ají',
+            hash: 't_6_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -198,7 +198,7 @@ export default {
       referencia:
         'Córdoba O. (2023). Manejo ecológico de plagas y enfermedades. Editorial Agrosavia.',
       tipo: 'Capítulo 5',
-      descarga:
+      link:
         'https://editorial.agrosavia.co/index.php/publicaciones/catalog/download/162/149/1124-1?inline=1',
     },
     {
@@ -220,7 +220,7 @@ export default {
       referencia:
         'FAO. (2010). Manejo integrado de enfermedades. Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO).',
       tipo: 'Documento',
-      descarga: 'https://www.fao.org/4/a1374s/a1374s05.pdf',
+      link: 'https://www.fao.org/4/a1374s/a1374s05.pdf',
     },
     {
       tema: 'Preparación de caldo de ceniza',
@@ -358,6 +358,21 @@ export default {
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
+        {
+          nombre: 'Ana Catalina Córdoba Sus ',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Gissela Del Carmen Alvis Ladino ',
+          cargo: 'Diseñadora instruccional ',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez  ',
+          cargo: 'Diseñadora instruccional ',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
     {
@@ -374,8 +389,43 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Andrés Felipe Guevara Ariza ',
+          cargo: 'Locutor',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Locutor',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Germán Acosta Ramos ',
+          cargo: 'Locutor',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'María Carolina Tamayo López ',
+          cargo: 'Locutor',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada ',
+          cargo: 'Productor pódcast ',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'José Eduardo Solano Rivero  ',
+          cargo: 'Productor pódcast ',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Gustavo Adolfo Contreras Barranco ',
+          cargo: 'Guionista validador ',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Zuleidy María Ruiz Torres ',
+          cargo: 'Guionista validador ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -389,17 +439,12 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Jaime Hernán Tejada Llano',
+          nombre: 'Margarita Marcela Medrano Gómez ',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

@@ -25,7 +25,7 @@
             p No se pierdan el episodio Manejo de Plagas, Don Campos, Asusena y Evaristo enseñarán a los oyentes cómo combatir plagas de manera ecológica y eficiente. Se explicarán métodos mecánicos, culturales, biológicos y más para mantener los cultivos libres de plagas sin dañar el medio ambiente.  
             TarjetaAudio.mb-3.bg-white(
               texto="Manejo de Plagas"
-              :audio="require('../assets/curso/temas/audio.mp3')"
+              :audio="require('../assets/curso/temas/audio2.mp3')"
             )
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -139,7 +139,7 @@
             .col-lg-9
               .p-4
                 h5 Nematodos
-                p.mb-0 Organismos del suelo que atacan raíces formando nódulos y tumores, haciendo que la capacidad de absorción disminuya o cese por completo.
+                p.mb-0 Organismos del suelo que atacan raíces, formando nódulos y tumores, haciendo que la capacidad de absorción disminuya o cese por completo.
     .row.justify-content-center.mb-3
       .col-lg-8
         div(style="background-color:#FAECAB ")
@@ -173,7 +173,7 @@
     .fondo-slyder.mn.p-5.mb-4
       .tarjeta.bg-white.p-5
           LineaTiempoC.color-acento-botones(text-small)
-            .row.justify-content-center.align-items-center(titulo="")
+            .row.justify-content-center.align-items-center(titulo="Temperatura")
               .col-lg-6.mb-4.mb-md-0
                 h5 Temperatura 
                 p Las temperaturas externas inciden en los niveles de infestación. Las temperaturas óptimas favorecen la proliferación de plagas. 

@@ -109,7 +109,7 @@
               p.mb-0 Colocar las plantas por 24 horas en remojo, luego cocinarlas por 20 min a fuego lento, enfriar y colar.
           div(titulo="Extracto de flores")
             .px-4
-              p.mb-0 Desmenuzar las flores, agregarpoca agua, macerar y luego exprimir en una tela. Guardar bien tapadas en unlugar fresco.
+              p.mb-0 Desmenuzar las flores, agregarpoca agua, macerar y luego exprimir en una tela. Guardar bien tapadas en un lugar fresco.
           div(titulo="Extracto de plantas")
             .px-4
               p.mb-0 En 1 L de agua hirviendo, colocar 500 g de plantas frescas, dejar hervir por 10 min, enfriar y colar. Cada litro de extracto se diluye hasta completar 20 L de agua para su aplicación.
@@ -181,14 +181,14 @@
           img(src='@/assets/curso/temas/63.png', alt='').mb-4
           .d-flex.justify-content-center
             .d-inline-block.p-3.bg-white.text-center.mb-4
-              h4.mb-0 Mosca blanca, pulgones y trips 
+              h4.mb-0 Mosca blanca, pulgones y #[em trips] 
           p.text-center Pintar por dentro de amarillo brillante latas, agregarles agua hasta la mitad y colgarlas dentro del área del cultivo, distribuyéndolas uniformemente. El color amarillo atrae a los insectos y al caer al agua mueren. 
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #BDAF7F").h-100
           img(src='@/assets/curso/temas/64.png', alt='').mb-4
           .d-flex.justify-content-center
             .d-inline-block.p-3.bg-white.text-center.mb-4
-              h4.mb-0 Moscas, pulgones, trips, polillas, escarabajos 
+              h4.mb-0 Moscas, pulgones, #[em trips], polillas, escarabajos 
           p.text-center Plástico amarillo, azul, blanco y rojo en rectángulos de 60 x 40 cm sostenidos por 2 estacas, colocados a 15 o 20 cm del suelo y se levantan a medida que las plantas crecen. Se impregnan de grasa o pegante. Los insectos son atraídos por los colores y se quedan pegados.  
     .titulo-tres: h3 Alelopatía 
     p.mb-5(data-aos='fade-right') La alelopatía es un efecto biológico de un organismo sobre otro, en el cual un organismo emite sustancias químicas que influyen positiva o negativamente en el crecimiento o desarrollo del segundo organismo. La agroecología aprovecha esta condición en algunas plantas para lograr efectos deseables en los cultivos. 
@@ -204,7 +204,7 @@
             .col-lg-9
               .p-4
                 h5 Feromonas
-                p.mb-0 compuestos emitidos por una especie para lograr un comportamiento determinado en un individuo de la misma especie. Ejemplo: las hormigas.
+                p.mb-0 Compuestos emitidos por una especie para lograr un comportamiento determinado en un individuo de la misma especie. Ejemplo: las hormigas.
     .row.justify-content-center.mb-3
       .col-lg-8
         div(style="background-color:#FAECAB ")
@@ -213,7 +213,7 @@
               .p-lg-0.p-4: img(src='@/assets/curso/temas/66.png', alt='')
             .col-lg-9
               .p-4
-                h5 Alelo químico: 
+                h5 Alelo químico
                 p.mb-4 Compuestos emitidos por una especie que logran un efecto en otra especie diferente:
                 ul.lista-ul--color
                   li.d-flex
@@ -246,7 +246,7 @@
           .d-flex.justify-content-center
             .d-inline-block.p-3.bg-white.text-center.mb-4
               h4.mb-0 Plantas repelentes
-          p.text-center Plantas que causan efectogeneralmente en plagas, manteniéndolas alejadas del cultivo debido a su olor que causa aversión.
+          p.text-center Plantas que causan efecto generalmente en plagas, manteniéndolas alejadas del cultivo debido a su olor que causa aversión.
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #dceeb6").h-100
           img(src='@/assets/curso/temas/69.png', alt='').mb-4
