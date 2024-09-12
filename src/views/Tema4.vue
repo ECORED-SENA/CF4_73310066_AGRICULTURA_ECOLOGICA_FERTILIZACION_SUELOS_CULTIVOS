@@ -257,8 +257,8 @@
     p.mb-5(data-aos='fade-right') Exploren cómo el Manejo Ecológico de Plagas y Enfermedades (MEPE) puede transformar las prácticas agrícolas, mejorando la salud del suelo y reduciendo el impacto de plagas sin comprometer la salud humana: 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/aDhpd9p6fjE?si=lVPKSxLr3RpBWhRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Manejo Ecológico de Plagas y Enfermedades MEPE en siembra
             
 
 
