@@ -231,7 +231,7 @@
               p.mb-0 Consiste en cultivar solamente variedades o híbridos resistentes a las infecciones. No se usa en el manejo agroecológico.
           div(titulo="Terapia")
             .px-4
-              p.mb-0 Consiste en procedimientos curativos una vez la enfermedad haya logrado su presencia. No se usa en elmanejo agroecológico. 
+              p.mb-0 Consiste en procedimientos curativos una vez la enfermedad haya logrado su presencia. No se usa en el manejo agroecológico. 
     p.mb-5(data-aos='fade-right') #[b Los métodos de manejo son:  ]
     .fondo-slyder.mn.p-5.mb-4
       .tarjeta.bg-white.p-5
