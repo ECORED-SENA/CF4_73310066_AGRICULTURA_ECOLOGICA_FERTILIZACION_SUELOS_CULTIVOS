@@ -23,7 +23,8 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Qué es el manejo agroecológico de plagas y enfermedades?',
+          texto:
+            '<b>¿Qué es el manejo agroecológico de plagas y enfermedades?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108115.png'),
           barajarRespuestas: false,
           opciones: [
@@ -50,7 +51,7 @@ export default {
         {
           id: 2,
           texto:
-            '¿Cuál de las siguientes es una práctica sostenible en el manejo agroecológico?',
+            '<b>¿Cuál de las siguientes es una práctica sostenible en el manejo agroecológico?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108116.png'),
           barajarRespuestas: true,
           opciones: [
@@ -81,7 +82,7 @@ export default {
         {
           id: 3,
           texto:
-            '¿Qué agente causante puede ser controlado en el manejo agroecológico de enfermedades?',
+            '<b>¿Qué agente causante puede ser controlado en el manejo agroecológico de enfermedades?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108117.png'),
           opciones: [
             { id: 'a', texto: 'Insectos beneficiosos.', esCorrecta: false },
@@ -95,7 +96,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál es un método de control de plagas en el manejo integrado?',
+            '<b>¿Cuál es un método de control de plagas en el manejo integrado?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108118.png'),
           barajarRespuestas: true,
           opciones: [
@@ -114,7 +115,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Qué práctica no es parte del manejo agroecológico de suelos?',
+            '<b>¿Qué práctica no es parte del manejo agroecológico de suelos?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108115.png'),
           opciones: [
             {
@@ -140,7 +141,7 @@ export default {
         {
           id: 6,
           texto:
-            '¿Cuál es un ejemplo de un bioinsumo utilizado en prácticas sostenibles?',
+            '<b>¿Cuál es un ejemplo de un bioinsumo utilizado en prácticas sostenibles?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108116.png'),
           opciones: [
             { id: 'a', texto: 'Caldo de ceniza.', esCorrecta: true },
@@ -153,7 +154,8 @@ export default {
         },
         {
           id: 7,
-          texto: '¿Qué tipo de arvense se menciona en el manejo de arvenses?',
+          texto:
+            '<b>¿Qué tipo de arvense se menciona en el manejo de arvenses?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108117.png'),
           opciones: [
             {
@@ -171,7 +173,7 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál es una categoría de plagas mencionada en el manejo integrado?',
+            '<b>¿Cuál es una categoría de plagas mencionada en el manejo integrado?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108118.png'),
           opciones: [
             { id: 'a', texto: 'Plagas urbanas.', esCorrecta: false },
@@ -185,7 +187,7 @@ export default {
         {
           id: 9,
           texto:
-            '¿Qué técnica se utiliza para la prevención de enfermedades en el manejo agroecológico?',
+            '<b>¿Qué técnica se utiliza para la prevención de enfermedades en el manejo agroecológico?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108115.png'),
           opciones: [
             { id: 'a', texto: 'Uso de insecticidas.', esCorrecta: false },
@@ -198,7 +200,8 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Qué beneficio se obtiene de la fertilización agroecológica?',
+          texto:
+            '<b>¿Qué beneficio se obtiene de la fertilización agroecológica?</b>',
           imagen: require('@/assets/componentes/preguntas/Grupo 1108116.png'),
           opciones: [
             {
