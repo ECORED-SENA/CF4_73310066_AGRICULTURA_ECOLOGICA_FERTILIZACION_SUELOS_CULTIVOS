@@ -23,7 +23,7 @@
           .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/36.svg', alt='')
           .col-lg-8
             h4 Pódcast
-            p Los invitamos  a escuchar el #[em pódcast] de procedimiento para obtener bioinsumost. En este episodio, Don Campos, Asusena y Evaristo compartirán recetas y técnicas para preparar bioinsumos caseros. Los oyentes aprenderán a utilizar ingredientes naturales que pueden encontrar en su finca, permitiéndoles proteger y nutrir sus cultivos de forma ecológica y económica.  
+            p Los invitamos  a escuchar el pódcast de procedimiento para obtener bioinsumost. En este episodio, Don Campos, Asusena y Evaristo compartirán recetas y técnicas para preparar bioinsumos caseros. Los oyentes aprenderán a utilizar ingredientes naturales que pueden encontrar en su finca, permitiéndoles proteger y nutrir sus cultivos de forma ecológica y económica.  
             TarjetaAudio.mb-3.bg-white(
               texto="Procedimiento para obtener bioinsumos"
               :audio="require('../assets/curso/temas/audio3.mp3')"
