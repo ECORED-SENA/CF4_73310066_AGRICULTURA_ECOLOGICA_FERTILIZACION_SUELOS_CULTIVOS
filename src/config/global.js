@@ -227,7 +227,7 @@ export default {
       referencia:
         'Vida en el Campo (2023). CÓMO preparar Caldo de CENIZA (INSECTICIDA, FUNGICIDA y FERTILIZANTE) [Archivo de video] Youtube.',
       tipo: 'Video',
-      link: 'ttps://youtu.be/68XPKDlIH5g?si=3P6HH_XUrPq9krno',
+      link: 'https://www.youtube.com/watch?v=68XPKDlIH5g',
     },
     {
       tema: 'Preparación de purín de helecho',

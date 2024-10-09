@@ -8,7 +8,7 @@
       h1 Manejo de plagas 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
-        p.mb-4 Son aquellas especies animales que generan un efecto negativo en los cultivos, atacando las plantas, disminuyendo su producción y calidad, causando con ello pérdidas económicas. Las plagas más comunes en los cultivos son: insectos (dípteros, coleópteros, lepidópteros, entre otros), arácnidos (arañas, ácaros, trips), nematodos, moluscos (babosas), anfibios, reptiles, roedores y aves. 
+        p.mb-4 Son aquellas especies animales que generan un efecto negativo en los cultivos, atacando las plantas, disminuyendo su producción y calidad, causando con ello pérdidas económicas. Las plagas más comunes en los cultivos son: insectos (dípteros, coleópteros, lepidópteros, entre otros), arácnidos (arañas, ácaros, #[i trips]), nematodos, moluscos (babosas), anfibios, reptiles, roedores y aves. 
         .p-3.mb-4(style="background-color: #faecab ")
           .row.justify-content-center.align-items-center
             .col-lg-2.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/37.svg', alt='')
@@ -208,10 +208,10 @@
               .col-lg-5
                 figure
                   img(src='@/assets/curso/temas/51.png', alt='Texto que describa la imagen')
-            .row.justify-content-center.align-items-center(titulo="Fotoperiodo ")
+            .row.justify-content-center.align-items-center(titulo="Fotoperíodo ")
               .col-lg-6.mb-4.mb-md-0
-                h5 Fotoperiodo 
-                p  En ambientes controlados, se manipula el fotoperiodo para alterar los comportamientos dañinos de algunas plagas. 
+                h5 Fotoperíodo 
+                p  En ambientes controlados, se manipula el fotoperíodo para alterar los comportamientos dañinos de algunas plagas. 
               .col-lg-5
                 figure
                   img(src='@/assets/curso/temas/52.png', alt='Texto que describa la imagen')
